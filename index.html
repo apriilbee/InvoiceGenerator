@@ -50,11 +50,11 @@
                             <label for="companyAddress">Company Address</label>
                         </div>
                         <div class="input-field">
-                            <input id="companyPhone" type="text" placeholder="+63 123 456 7890" />
+                            <input id="companyPhone" type="text" placeholder="+63 123 456 7890" disabled />
                             <label for="companyPhone">Company Phone</label>
                         </div>
                         <div class="input-field">
-                            <input id="companyEmail" type="email" placeholder="company@gmail.com" />
+                            <input id="companyEmail" type="email" placeholder="company@gmail.com" disabled />
                             <label for="companyEmail">Company Email</label>
                         </div>
                     </div>
@@ -91,11 +91,11 @@
                     <label for="invoiceItem">Item Description</label>
                 </div>
                 <div class="input-field col s12 m3">
-                    <input id="rate" type="number" placeholder="0.00" />
+                    <input id="rate" type="text" placeholder="0.00" />
                     <label id="rateLabel" for="rate">Rate</label>
                 </div>
                 <div class="input-field col s12 m3">
-                    <input id="subtotalRate" type="number" placeholder="0.00" disabled />
+                    <input id="subtotalRate" type="text" placeholder="0.00" disabled />
                     <label id="subtotalLabel" for="subtotalRate">Subtotal</label>
                 </div>
             </div>
@@ -113,7 +113,7 @@
             <!-- Preview & Generate PDF Buttons -->
             <div class="row">
                 <div class="col s12 right-align">
-                    <button type="button" class="btn beige" onclick="showPreview()">Preview</button>
+                    <button type="button" class="btn" onclick="showPreview()">Preview</button>
                     <button type="button" class="btn blue" onclick="generatePDF()">Generate PDF</button>
                 </div>
             </div>

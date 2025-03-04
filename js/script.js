@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function updateTotals() {
         const rate = parseFloat(unformatNumber(rateInput.value)) || 0;
-        subtotalInput.value = parseFloat(unformatNumber(rateInput.value)) || 0;
+        subtotalInput.value = rateInput.value || 0;
         totalRate.innerText = formatNumberWithCommas(rate.toFixed(2));
     }
 
@@ -142,8 +142,8 @@ function getInputValues() {
         clientEmail: getValue(CONSTANTS.ELEMENT_IDS.CLIENT_EMAIL),
         invoiceItem: getValue(CONSTANTS.ELEMENT_IDS.INVOICE_ITEM),
         rate: getValue(CONSTANTS.ELEMENT_IDS.RATE),
-        subtotalRate: getValue(CONSTANTS.ELEMENT_IDS.SUBTOTAL_RATE),
-        totalRate: getValue(CONSTANTS.ELEMENT_IDS.SUBTOTAL_RATE),
+        subtotalRate: getValue(CONSTANTS.ELEMENT_IDS.RATE),
+        totalRate: getValue(CONSTANTS.ELEMENT_IDS.RATE),
     };
 }
 
