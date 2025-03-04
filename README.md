@@ -1,2 +1,2 @@
 # InvoiceGenerator
-Simple Invoice Generator App
+Simple Salary Invoice Generator App

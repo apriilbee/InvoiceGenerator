@@ -1,0 +1,143 @@
+h4,
+h5,
+h6 {
+    margin-bottom: 10px;
+}
+
+table {
+    margin-top: 20px;
+}
+
+input {
+    margin: 5px 0;
+}
+
+@font-face {
+    font-family: "Telegraf";
+    src: url("../fonts/PPTelegraf-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Telegraf", sans-serif;
+}
+
+.total-rate-display {
+    display: block;
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    border-radius: 4px;
+    text-align: right;
+}
+
+.bill-section {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #fffefe;
+}
+
+.bill-section h5 {
+    margin-top: 0;
+    font-size: 1.4rem;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+button.btn {
+    width: auto;
+    min-width: 150px;
+}
+
+@media (max-width: 600px) {
+    .bill-section h5 {
+        font-size: 1.2rem;
+    }
+
+    .total-rate-display {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    button.btn {
+        width: 100%;
+    }
+
+    .right-align {
+        text-align: center !important;
+        margin-left: 0 !important;
+        max-width: 100% !important;
+    }
+}
+
+h4 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.custom-hr {
+    border: none;
+    height: 2px;
+    background-color: beige;
+}
+
+#previewModal {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    height: 90%;
+    width: 90%;
+    max-width: 1000px;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
+#previewModal .modal-content {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#previewModal h4 {
+    margin: 0 0 10px 0;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.pdf-container {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+}
+
+#pdfPreviewFrame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: #f0f0f0;
+}
+
+#previewModal .modal-close i {
+    font-size: 24px;
+    color: #666;
+    cursor: pointer;
+}
+#previewModal .modal-close:hover i {
+    color: #d32f2f;
+}

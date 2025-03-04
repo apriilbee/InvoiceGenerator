@@ -1,0 +1,19 @@
+{
+    "template": "salary_template.png",
+    "fields": [
+        { "key": "invNum", "x": 474, "y": 70 },
+        { "key": "dateIssued", "x": 463, "y": 89 },
+        { "key": "companyName", "x": 58, "y": 166 },
+        { "key": "companyAddress", "x": 58, "y": 181, "wrapWidth": 150 },
+        { "key": "companyPhone", "x": 58, "y": 195},
+        { "key": "companyAddressEmail", "x": 58, "y": 210},
+        { "key": "clientName", "x": 355, "y": 166},
+        { "key": "clientAddress", "x": 355, "y": 181, "wrapWidth": 150 },
+        { "key": "clientPhone", "x": 355, "y": 195},
+        { "key": "clientEmail", "x": 355, "y": 210},
+        { "key": "invoiceItem", "x": 118, "y": 390 },
+        { "key": "rate", "x": 540, "y": 390, "align": "right" },
+        { "key": "subtotalRate", "x": 540, "y": 500, "align": "right" },
+        { "key": "totalRate", "x": 540, "y": 566, "align": "right" }
+    ]
+}
