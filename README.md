@@ -18,6 +18,10 @@ The app allows users to input relevant information, preview the invoice, and dow
 
 ## Screenshots
 
+| Preview Page | Sample Input |
+| --- | --- |
+| ![Preview Screenshot](./screenshots/preview.png) | ![Sample Input Screenshot](./screenshots/sample_input.png) |
+
 
 
 ---
