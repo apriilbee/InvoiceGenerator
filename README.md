@@ -41,3 +41,8 @@ The app allows users to input relevant information, preview the invoice, and dow
 - **CSS**
 - **JavaScript**
 
+---
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions, feel free to open an issue or submit a pull request.
