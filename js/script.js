@@ -21,8 +21,8 @@ const CONSTANTS = {
         SUBTOTAL_LABEL: "subtotalLabel",
     },
     FILES: {
-        TEMPLATE_JSON: "../templates/salary_template.json",
-        TEMPLATE_IMAGE: "../resources/salary_template.png",
+        TEMPLATE_JSON: "./templates/salary_template.json",
+        TEMPLATE_IMAGE: "./resources/salary_template.png",
         FONT: "../fonts/PPTelegraf-Regular.ttf",
     },
     FONT_NAME: "Telegraf",
